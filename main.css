@@ -34,7 +34,7 @@ h1, h2, h3, h4 {
 
 .content {
   font-size: 1.4rem;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 a.btn-large {
@@ -58,4 +58,71 @@ i {
   margin-right: auto;
   padding: 0;
   width: 90%;
+}
+
+.hr2 {
+  margin-top: 0;
+  border-top: 5px solid #212121;
+}
+
+main {
+  margin-top: 150px;
+}
+
+.project-1 {
+  margin-top: 150px;
+}
+
+.hr1 {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.hr3 {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.portfolio {
+  padding-bottom: 75px;
+}
+
+.about {
+  padding-top: 75px;
+
+}
+
+.fab, .fas {
+  margin-top: 15px;
+  font-size: 2.5rem;
+}
+
+.app {
+  margin-top: 20px;
+}
+
+nav {
+  box-shadow: none;
+}
+
+span {
+  font-weight: 100;
+}
+
+nav .brand-logo {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 600;
+}
+
+nav ul a {
+  font-size: 1.5rem;
+}
+
+.contact {
+  padding-bottom: 150px;
+}
+
+.btn-holder {
+  padding-top: 40px;
 }
