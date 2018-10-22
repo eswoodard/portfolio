@@ -13,134 +13,132 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   </head>
   <body>
-    <header>
-        <nav class="nav-wrapper transparent">
-            <div class="container">
-              <a href="#" class="brand-logo white-text grey darken-4"><span>Elizabeth</span> Woodard</a>
-              <a href="#" class="sidenav-trigger" data-target="mobile-menu">
-                <i class="material-icons">menu</i>
-              </a>
-              <ul class="nav-links right hide-on-med-and-down">
-                <li><a class="grey-text text-darken-4" href="#intro">Home</a></li>
-                <li><a class="grey-text text-darken-4" href="#projects">Projects</a></li>
-                <li><a class="grey-text text-darken-4" href="#about">About</a></li>
-                <li><a class="grey-text text-darken-4" href="#contact">Contact</a></li>
-              </ul>
-              <ul class="sidenav grey lighten-4 transparent" id="mobile-menu">
-                <li><a class="grey-text text-darken-4" href="#">Home</a></li>
-                <li><a class="grey-text text-darken-4" href="#">Projects</a></li>
-                <li><a class="grey-text text-darken-4" href="#">About</a></li>
-                <li><a class="grey-text text-darken-4" href="#">Contact</a></li>
-              </ul>
-            </div>
-          </nav>
-          <div class="container">
-            <hr class="hr2"/>
+    <header role="banner">
+      <nav class="nav-wrapper" role="navigation">
+        <div class="container nav-width">
+          <a href="#" class="brand-logo white-text grey darken-4"><span>Elizabeth</span> Woodard</a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="nav-links right hide-on-med-and-down">
+            <li><a class="grey-text text-darken-4" href="#intro">Home</a></li>
+            <li><a class="grey-text text-darken-4" href="#projects">Projects</a></li>
+            <li><a class="grey-text text-darken-4" href="#about">About</a></li>
+            <li><a class="grey-text text-darken-4" href="#contact">Contact</a></li>
+          </ul>
+          <ul class="sidenav grey darken-4 sidenav-close" id="mobile-menu">
+            <li><a class="white-text sidenav-close" href="#intro">Home</a></li>
+            <li><a class="white-text sidenav-close" href="#projects">Projects</a></li>
+            <li><a class="white-text sidenav-close" href="#about">About</a></li>
+            <li><a class="white-text sidenav-close" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <hr class="hr2 grey darken-4"/>
+      </div>
+      <section class="container section intro scrollspy" id="intro">
+        <div class="row">
+          <div class="col s12 l5">
+              <img src="images/IMG_0851.jpg" alt="" class="responsive-img photo">
           </div>
-          <section class="container section intro scrollspy" id="intro">
-            <div class="row">
-              <div class="col s12 l5">
-                  <img src="images/IMG_0851.jpg" alt="" class="responsive-img photo">
-              </div>
-              <div class="col s12 l6 offset-l1">
-                <h1 class="grey-text text-darken-3 title">Hi!  I'm Elizabeth.</h1>
-                <h2 class="grey-text text-lighten-1 tag">I build web applications.</h2>
-                <p class="grey-text text-darken-2 content">I am a full-stack web developer living in Atlanta, GA.  I am fascinated by technology and the multitudes of problems it can solve.  I love the challenge of coding and the satisfaction of seeing something I've built come alive on the screen.</p>
-                <div class="left s12 btn-holder">
-                  <a href="#projects" class="btn-large">View My Projects</a>
-                  <a href="#contact" class="btn-large">Contact Me</a>
-                </div>
-              </div>
-            </div>
-          </section>
-        </header>
-      <main role="main"></main>
-        <section class="section portfolio grey lighten-3 scrollspy" id="projects">
-          <h2 class="center grey-text text-darken-3 ">My Projects</h2>
-          <div class="row container project-1">
-            <div class="col s12 l6">
-              <h3 class="grey-text text-darken-3">FlashDeck</h3>
-              <p class="grey-text text-darken-2 content">FlashDeck is an educational application that allows users to create flashcard decks to help them learn and retain information.  FlashDeck is a collaborative, community-based learning environment in which users can view and study decks created by others.</p>
-              <p class="grey-text text-darken-2 content">Built using:</p>
-              <p class="grey-text text-darken-2 content"><i class="fab fa-html5 tooltipped" data-tooltip="HTML5" data-position="top"></i><i data-position="top" class="fab tooltipped fa-css3-alt" data-tooltip="CSS3"></i><i data-position="top" class="fab tooltipped fa-js-square" data-tooltip="JavaScript"></i><i data-position="top" class="fab tooltipped fa-node-js" data-tooltip="Node.js"></i><i data-position="top" class="fab tooltipped fa-react" data-tooltip="React"></i></p>
-              <div class="left s12 btn-holder">
-                  <a href="https://github.com/eswoodard/flashdeck-client" class="btn-large" target="_blank">View Code</a>
-                  <a href="https://enigmatic-everglades-87317.herokuapp.com/" class="btn-large" target="_blank">Demo</a>
-                </div>
-            </div>
-            <div class="col s12 l6" >
-              <img src="images/FD-landing-page.png" alt="FlashDeck App Landing Page" class="responsive-img app">
+          <div class="col s12 l6 offset-l1">
+            <h1 class="grey-text text-darken-3 title">Hi!  I'm Elizabeth.</h1>
+            <h2 class="grey-text text-lighten-1 tag">I build web applications.</h2>
+            <p class="grey-text text-darken-2 content">I am a full-stack web developer living in Atlanta, GA.  I am fascinated by technology and the multitudes of problems it can solve.  I love the challenge of coding and the satisfaction of seeing something I've built come alive on the screen.</p>
+            <p class="grey-text text-darken-2 content">I am skilled in HTML5, CSS3, JavaScript, jQuery, Node.js, Express, MongoDb, and React +Redux.</p>
+            <div class="left s12 btn-holder">
+              <a href="#projects" class="btn-large white-bgd">View My Projects</a>
+              <a href="#contact" class="btn-large white-bgd">Contact Me</a>
             </div>
           </div>
-          <div class="container">
-            <hr class="hr1"/>
+        </div>
+      </section>
+    </header>
+    <main role="main"></main>
+      <section class="section portfolio grey lighten-3 scrollspy" id="projects">
+        <h2 class="center grey-text text-darken-3 project-tag ">My Projects</h2>
+        <div class="row container project-1">
+          <div class="col s12 l6 push-l6" >
+            <img src="images/FD-landing-page.png" alt="FlashDeck App Landing Page" class="responsive-img app">
           </div>
-          </div>
-          <div class="row container project">
-            <div class="col s12 l6" >
-              <img src="images/Petfolio-profile-page.png" alt="Petfolio Pet Profile Page" class="responsive-img app">
-            </div>
-            <div class="col s12 l5 offset-l1">
-              <h3 class="grey-text text-darken-4">Petfolio</h3>
-              <p class="grey-text text-darken-2 content">Petfolio is an application that allows users to upload and organize information about their pets, including photos, important dates, medical information, etc.</p>
-              <p class="grey-text text-darken-2 content">Built using:</p>
-              <p class="grey-text text-darken-2 content"><i data-position="top" class="fab fa-html5 tooltipped" data-tooltip="HTML5"></i><i data-position="top" class="fab tooltipped fa-css3-alt" data-tooltip="CSS3"></i><i data-position="top" class="fab tooltipped fa-js-square" data-tooltip="JavaScript"></i><i data-position="top" class="fab tooltipped fa-node-js" data-tooltip="Node.js"></i>
-              <div class="left s12 btn-holder">
-                <a href="https://github.com/eswoodard/node-capstone-petfolio" target="_blank" class="btn-large">View Code</a>
-                <a href="https://secret-woodland-65665.herokuapp.com/" target="_blank" class="btn-large">Demo</a>
-                </div>
-            </div>
-          </div>
-          <div class="container">
-            <hr class="hr1"/>
-          </div>
-          <div class="row container project">
-            <div class="col s12 l6">
-              <h3 class="grey-text text-darken-4">goFestival!</h3>
-              <p class="grey-text text-darken-2 content">goFestival! is an application that allows users to enter a zipcode and receive a list of festivals within a specified radius. The application returns a list of festivals along with a map of each festival's location. The application is powered by Eventbrite and Google Maps.</p>
-              <p class="grey-text text-darken-2 content">Built using:</p>
-              <p class="grey-text text-darken-2 content"><i data-position="top" class="fab fa-html5 tooltipped" data-tooltip="HTML5"></i><i data-position="top" class="fab tooltipped fa-css3-alt" data-tooltip="CSS3"></i><i data-position="top" class="fab tooltipped fa-js-square" data-tooltip="JavaScript"></i></p>
-              <div class="left s12 btn-holder">
-                  <a href="https://github.com/eswoodard/goFestival" target="_blank" class="btn-large">View Code</a>
-                  <a href="https://eswoodard.github.io/goFestival/" target="_blank" class="btn-large">Demo</a>
-              </div>
-            </div>
-            <div class="col s12 l6" >
-              <img src="images/goFestival-results-page.png" alt="GoFestival Results Page" class="responsive-img app">
+          <div class="col s12 l6 pull-l6 left-align">
+            <h3 class="grey-text text-darken-3">FlashDeck</h3>
+            <p class="grey-text text-darken-2 content">FlashDeck is an educational application that allows users to create flashcard decks to help them learn and retain information.  FlashDeck is a collaborative, community-based learning environment in which users can view and study decks created by others.</p>
+            <p class="grey-text text-darken-2 content">Built using:</p>
+            <p class="grey-text text-darken-2 content"><i class="fab fa-html5 tooltipped" data-tooltip="HTML5" data-position="top"></i><i data-position="top" class="fab tooltipped fa-css3-alt" data-tooltip="CSS3"></i><i data-position="top" class="fab tooltipped fa-js-square" data-tooltip="JavaScript"></i><i data-position="top" class="fab tooltipped fa-node-js" data-tooltip="Node.js"></i><i data-position="top" class="fab tooltipped fa-react" data-tooltip="React"></i></p>
+            <div class="left s12 btn-holder">
+                <a href="https://github.com/eswoodard/flashdeck-client" class="btn-large" target="_blank">View Code</a>
+                <a href="https://enigmatic-everglades-87317.herokuapp.com/" class="btn-large" target="_blank">Demo</a>
             </div>
           </div>
-        </section>
-        <section class="container section about scrollspy" id="about">
-          <div class="row">
-            <div class="col s12">
-              <h2 class="grey-text text-darken-4">About me</h2>
-              <p class="grey-text text-darken-2 content">My journey into tech has been an indirect one.  My background is in mental health and I started my career providing services to individuals with behavioral health conditions.  After several years I transitioned into the insurance industry and used my clinical knowledge to help manage the cost of medical care and ensure that indivduals received proper treatment. I have a Master's Degree in Counseling as well as an MBA.</p>
-              <p class="grey-text text-darken-2 content">Eventually I realized I needed to make a change.  I remembered my fascination with computers as a teenager, and after spending some time teaching myself the basics of HTML, CSS, and Javascript, realized that this was something I could happily do all day, every day.  I enrolled in a coding bootcamp and the rest is history. </p>
-              <p class="grey-text text-darken-2 content">Outside of web development, I love everything to do with Tolkien (the books, not the movies), anything Joss Whedon, good sci-fi/fantasy, and have a serious thing for Jane Austin.  I love to hike and I'm a huge NFL fan.  And I have two cats that I adore.</p>
-            </div>
-          </div>
-        </section>
+        </div>
         <div class="container">
-          <hr class="hr3"/>
+          <hr class="hr1"/>
         </div>
-        <section id="contact" class="contact scrollspy">
-          <div class="center s12">
-            <h2 class="grey-text text-darken-4">Contact</h2>
-            <p class="grey-text text-lighten-1 tag">I am interested in discussing new opportunities.</p>
-            <a href="https://github.com/eswoodard"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/elizabeth-woodard-92706214/"><i class="fab fa-linkedin-in"></i></a>
-            <a href="mailto: eswoodard75@gmail.com"><i class="fas fa-envelope"></i></a>
+        <div class="row container project">
+          <div class="col s12 l6" >
+            <img src="images/Petfolio-profile-page.png" alt="Petfolio Pet Profile Page" class="responsive-img app">
           </div>
-        </section>
-     </main>
-     <footer class="page-footer grey darken-3">
-        <div class="footer-copyright grey darken-4">
-          <div class="container center-align">&copy; 2018 Elizabeth Woodard</div>
+          <div class="col s12 l5 offset-l1">
+            <h3 class="grey-text text-darken-4">Petfolio</h3>
+            <p class="grey-text text-darken-2 content">Petfolio is an application that allows users to upload and organize information about their pets, including photos, important dates, medical information, etc.</p>
+            <p class="grey-text text-darken-2 content">Built using:</p>
+            <p class="grey-text text-darken-2 content"><i data-position="top" class="fab fa-html5 tooltipped" data-tooltip="HTML5"></i><i data-position="top" class="fab tooltipped fa-css3-alt" data-tooltip="CSS3"></i><i data-position="top" class="fab tooltipped fa-js-square" data-tooltip="JavaScript"></i><i data-position="top" class="fab tooltipped fa-node-js" data-tooltip="Node.js"></i>
+            <div class="left s12 btn-holder">
+              <a href="https://github.com/eswoodard/node-capstone-petfolio" target="_blank" class="btn-large">View Code</a>
+              <a href="https://secret-woodland-65665.herokuapp.com/" target="_blank" class="btn-large">Demo</a>
+            </div>
+          </div>
         </div>
-      </footer>
-    <script src='main.js'>
-
-    </script>
+        <div class="container">
+          <hr class="hr1"/>
+        </div>
+        <div class="row container project">
+          <div class="col s12 l6 push-l6" >
+            <img src="images/goFestival-results-page.png" alt="GoFestival Results Page" class="responsive-img app">
+          </div>
+          <div class="col s12 l6 pull-l6 left-align">
+            <h3 class="grey-text text-darken-4">goFestival!</h3>
+            <p class="grey-text text-darken-2 content">goFestival! is an application that allows users to enter a zipcode and receive a list of festivals within a specified radius. The application returns a list of festivals along with a map of each festival's location. The application is powered by Eventbrite and Google Maps.</p>
+            <p class="grey-text text-darken-2 content">Built using:</p>
+            <p class="grey-text text-darken-2 content"><i data-position="top" class="fab fa-html5 tooltipped" data-tooltip="HTML5"></i><i data-position="top" class="fab tooltipped fa-css3-alt" data-tooltip="CSS3"></i><i data-position="top" class="fab tooltipped fa-js-square" data-tooltip="JavaScript"></i></p>
+            <div class="left s12 btn-holder">
+              <a href="https://github.com/eswoodard/goFestival" target="_blank" class="btn-large">View Code</a>
+              <a href="https://eswoodard.github.io/goFestival/" target="_blank" class="btn-large">Demo</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container section about scrollspy" id="about">
+        <div class="row">
+          <div class="col s12">
+            <h2 class="grey-text text-darken-4">About me</h2>
+            <p class="grey-text text-darken-2 content">My journey into tech has been an indirect one.  My background is in mental health and I began my career by providing services to individuals with mental health conditions.  After several years I transitioned into the insurance industry and worked to manage the cost of psychiatric care and ensure that individuals in need received proper treatment. I have a Master's Degree in Counseling as well as an MBA. I'm also a Licensed Professional Counselor.</p>
+            <p class="grey-text text-darken-2 content">Eventually I realized I needed to make a change.  I had been fascinated with computers and technology as a teenager and decided to explore that interest further. After spending some time teaching myself the basics of HTML, CSS, and Javascript, I realized that this was something I could happily do all day, every day.  I enrolled in a coding bootcamp and the rest is history. </p>
+            <p class="grey-text text-darken-2 content">Outside of web development, I love everything to do with Tolkien (the books, not the movies), anything Joss Whedon, good sci-fi/fantasy, and have a serious thing for Jane Austin.  I love to hike and I'm a huge NFL fan.  And I have two cats that I adore.</p>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <hr class="hr3"/>
+      </div>
+      <section id="contact" class="contact scrollspy">
+        <div class="center s12">
+          <h2 class="grey-text text-darken-4">Contact</h2>
+          <p class="grey-text text-lighten-1 tag">I am interested in discussing new opportunities.</p>
+          <a href="https://github.com/eswoodard"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/elizabeth-woodard-92706214/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto: eswoodard75@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer grey darken-3">
+      <div class="footer-copyright grey darken-4">
+        <div class="container center-align">&copy; 2018 Elizabeth Woodard</div>
+      </div>
+    </footer role="contentinfo">
+    <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   </body>
