@@ -97,6 +97,10 @@ nav i {
   background-color: #424242;
 }
 
+.sidenav li > a:focus {
+  background-color: #424242;
+}
+
 h1 {
   font-size: 3.5rem;
   padding-top: 20px;
@@ -111,17 +115,29 @@ h1 {
 }
 
 .btn-large {
-  background-color: #5D88A8;
+  background-color: #58809E;
 }
 
 .btn-large:hover {
   background-color: #eeeeee;
-  color: #5D88A8;
+  color: #58809E;
   transition: all 0.5s ease 0s;
-  box-shadow: inset 0 0 0 3px #5D88A8;
+  box-shadow: inset 0 0 0 3px #58809E;
+}
+
+.btn-large:focus {
+  background-color: #eeeeee;
+  color: #58809E;
+  transition: all 0.5s ease 0s;
+  box-shadow: inset 0 0 0 3px #58809E;
+  outline: red;
 }
 
 .white-bgd:hover {
+  background-color: #fff;
+}
+
+.white-bgd:focus {
   background-color: #fff;
 }
 
@@ -129,7 +145,11 @@ h1 {
   margin: 25px;
 }
 
-@media (max-width: 768px) {
+.left {
+  float: none !important;
+}
+
+@media (max-width: 540px) {
 
   .btn-large {
     margin-bottom: 15px;
