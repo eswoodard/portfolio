@@ -1,6 +1,6 @@
-# portfolio
+# Portfolio
 
 Portfolio website for Elizabeth Woodard
 
 ## Link to live site
-[](www.elizabeth-woodard.com)
+[Elizabeth Woodard](www.elizabeth-woodard.com)
