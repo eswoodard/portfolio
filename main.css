@@ -115,21 +115,21 @@ h1 {
 }
 
 .btn-large {
-  background-color: #58809E;
+  background-color: #3a77a5;
 }
 
 .btn-large:hover {
   background-color: #eeeeee;
-  color: #58809E;
+  color: #3a77a5;
   transition: all 0.5s ease 0s;
-  box-shadow: inset 0 0 0 3px #58809E;
+  box-shadow: inset 0 0 0 3px #3a77a5;
 }
 
 .btn-large:focus {
   background-color: #eeeeee;
-  color: #58809E;
+  color: #3a77a5;
   transition: all 0.5s ease 0s;
-  box-shadow: inset 0 0 0 3px #58809E;
+  box-shadow: inset 0 0 0 3px #3a77a5;
   outline: red;
 }
 
